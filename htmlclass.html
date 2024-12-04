@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html class</title>
+    <!-- give your page name an icon -->
+    <link rel="icon" type="image/jpg"  href="imgs/nruto.jpg">
+    <!-- google font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 style="background-color: aqua; border-radius: 50px; padding: 50px; text-align: center;">INTRODUCTION TO HTML(HYPER TEXT MARKUP LANGUAGE) CLASS</h1>
+
+
+    <!-- HYPERLINKS/ANCHOR TAG ARE USED TO CREATE A LINK TO GO TO ANY PAGE -->
+     <a href="lyrics.html"
+     target="_blank"
+     link="Goes to dandelions lyrics" >DANDELION SONG</a>
+     <!-- target will open the link in  new window or tb when tapped on
+     tittle - when you hover on the link it will show goes to dandelions lyrics -->
+
+
+     <!-- HEADING TAGS AND PARAGRAPH TAG, WHERE H1 IS THE BIGGEST AND H6 IS THE SMALLEST  -->
+      <h1>THIS IS H1 TAG</h1>
+      <h2>THIS IS H2 TAG</h2>
+      <h3>THIS IS H3 TAG</h3>
+      <h4>THIS IS H4 TAG</h4>
+      <h5>THIS IS H5 TAG</h5>
+      <h6>THIS IS H6 TAG</h6>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ratione. Porro, velit quas maiores veritatis dicta et quam inventore voluptas, itaque expedita fuga eum laudantium quo, totam distinctio. Tenetur, magni.</p>
+
+      <!-- IMAGES -->
+       <img src="imgs/nruto.jpg" alt="this is a naruto picture" height="100px">
+
+       <!-- break tag -->
+       <br>
+
+       <!-- audio  -->
+        <audio controls >  <!-- audio properties include autoplay, muted, loop     -->
+             <src="audio/dandelion.mp3">DANDELION BY RUTH.B
+
+        </audio>
+
+        <!-- video  -->
+         <video src=""></video>
+
+
+         <!-- text formtting -->
+          <h4>This is a normal text</h4>
+          <h4>This is an <i>italics</i> text</h4>
+          <h4>This is a <b>bold</b> text</h4>
+          <h4>This is an <u>underlined</u> text</h4>
+          <h4>This is a <big>big</big> text</h4>
+          <h4>This is a <small>small</small> text</h4>
+          <h4>This is a <sub>subscript</sub> text</h4>
+          <h4>This is a <sup>superscript</sup> text</h4>
+          <h4>This is a <tt>monospaced</tt> text</h4>
+          <h4>This is a <del>deleted</del> text</h4>
+          <h4>This is a <mark>mark</mark> text</h4>
+
+          <!-- span and div 
+           span is an inline container to group element for styling purposes
+           div is a block container to group ement for styling purposes -->
+           <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ut sit quasi,<span style="background-color: blue;">consectetur ullam saepe earum rem fuga cum itaque unde quis doloribus excepturi laborum! Totam placeat aliquam velit nesciunt? lo</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, illum nulla aliquid dignissimos vel ducimus officiis id omnis quam, assumenda asperiores libero cumque earum ea. Tenetur ipsum veniam quod delectus! </p> <br>
+
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dicta recusandae porro sequi expedita in mollitia laboriosam corrupti. Ratione libero sed ullam fuga delectus voluptatum molestias, cum corporis voluptates nesciunt.<div style="background-color: blueviolet;">Quo atque veritatis blanditiis. Iusto voluptates commodi exercitationem omnis in. Aspernatur ut asperiores nostrum similique neque quis veniam soluta totam commodi provident?</div></p>
+
+           <!-- list
+            we have ordered list, unordered list and distributed list -->
+            <ul>
+                <li>egg</li>
+                <li>cheese</li>
+                <li>kiwi</li>
+                <li>rice</li>
+            </ul>
+    
+            <ol>
+                <li>egg</li>
+                <li>cheese</li>
+                <li>kiwi</li>
+                <li>rice</li>
+            </ol>
+    
+            <dl style="background-color: cadetblue; border: solid;">
+                <dt>egg</dt>
+                <dd>egg is life</dd>
+                <dt>cheese</dt>
+                <dd>cheese is not life</dd>
+                <dt>kiwi</dt>
+                <dd>kiwi is sour</dd>
+                <dt>rice</dt>
+                <dd>rice is being import</dd>
+    
+            </dl>
+
+            <!-- tables -->
+            <table style="background-color: darkblue; border: 2px;">
+                <tr style="background-color: darkcyan;">
+                    <th>mon</th>
+                    <th>tue</th>
+                    <th>wed</th>
+                </tr>
+                <tr style="background-color: darkkhaki;">
+                    <td>closed</td>
+                    <td>open</td>
+                    <td>open</td>
+                </tr>
+                
+            </table> <br>
+
+            <!-- forms -->
+            <form action="index.php" method="POST">
+
+                <label for="username">password:</label>
+                <input type="text" id="username" placeholder="input your username" required> <br>
+    
+                <label for="Email">Email:</label>
+                <input type="Email" id="Email" placeholder="input your Email" required> <br>
+    
+                <label for="password">password:</label>
+                <input type="password" id="pasword" placeholder="input your paassword" required> <br>
+    
+                <label for="bday">Birthday:</label>
+                <input type="date" id="bday"> <br>
+    
+                <label for="file"></label>
+                <input type="file" id="file" accept="image/jpeg"><br>
+    
+                <input type="submit"> <br>
+                <input type="Reset"> <br>
+    
+                <!-- &copy; copyright -->
+    
+            </form>
+
+            <!-- buttons -->
+             <button style="font-size: 25px; background-color: blue;">click me</button> <br>
+             <br>
+
+             <a href="lyrics.html">
+                <button style="font-size: 20px; background-color: brown; border-radius:20px;">click to go to song</button>
+                </a>
+                <br><br><br><br>
+
+                <h1 style="background-color: aqua; border-radius: 25px;padding: 50px; text-align: center;">THIS IS THE END OF HTML CONTINUE TO CSS</h1>
+    
+</body>
+</html>
